@@ -13,3 +13,35 @@
   color: white;
   margin-bottom: 50px;
 }
+
+.ans__wrapper{
+  display:flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.wrong {
+  width: 30px;
+  height: 30px;
+  border: 10px solid gray;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    border: 10px solid rgb(254, 152, 94);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.strike {
+    width: 30px;
+    height: 30px;
+    border: 10px solid rgb(47, 85, 255);
+    border-radius: 50%;
+    margin-left: 10px;
+}
