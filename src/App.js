@@ -4,6 +4,8 @@ import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
 import GuGuDan from "./1. 구구단/App";
 import Word from "./2. 끝말잇기/App";
 import BaseBall from "./3. 숫자야구/App";
+import RockPaperScissors from "./4. 가위바위보/App";
+import Lotto from "./5. 로또 추첨기/App";
 import Main from "./Main";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Link to="/gugudan">구구단</Link>
           <Link to="/wordgame">끝말잇기</Link>
           <Link to="/baseball">야구게임</Link>
+          <Link to="/rps">가위바위보</Link>
+          <Link to="/lotto">로또</Link>
         </div>
       </nav>
       <div>
@@ -25,6 +29,8 @@ function App() {
           <Route path="/gugudan" element={<GuGuDan />}></Route>
           <Route path="/wordgame" element={<Word />}></Route>
           <Route path="/baseball" element={<BaseBall />}></Route>
+          <Route path="/rps" element={<RockPaperScissors />}></Route>
+          <Route path="/lotto" element={<Lotto />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
