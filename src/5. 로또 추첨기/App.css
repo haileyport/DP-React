@@ -14,34 +14,32 @@
   margin-bottom: 50px;
 }
 
-.ans__wrapper{
-  display:flex;
-  flex-direction: row;  
-  justify-content: center;
+.lotto {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.balls {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.retry {
   margin-top: 10px;
 }
 
-.wrong {
-  width: 30px;
-  height: 30px;
-  border: 10px solid gray;
+.singleBall {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   margin-left: 10px;
-}
-
-.ball {
-    width: 30px;
-    height: 30px;
-    border: 10px solid rgb(254, 152, 94);
-    border-radius: 50%;
-    margin-left: 10px;
-}
-
-.strike {
-    width: 30px;
-    height: 30px;
-    border: 10px solid rgb(47, 85, 255);
-    border-radius: 50%;
-    margin-left: 10px;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: white;
 }
