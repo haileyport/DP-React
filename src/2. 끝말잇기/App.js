@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 
-function App() {
+function Word() {
   const [word, setWord] = useState("바다");
   const [input, setInput] = useState("");
   const [fail, setFail] = useState("");
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Word;

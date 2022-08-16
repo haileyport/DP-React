@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 
-function App() {
+function GuGuDan() {
   const [first, setFirst] = useState(Math.ceil(Math.random() * 9));
   const [second, setSecond] = useState(Math.ceil(Math.random() * 9));
   const [input, setInput] = useState("");
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default GuGuDan;
