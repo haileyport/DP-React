@@ -14,18 +14,6 @@
   margin-bottom: 50px;
 }
 
-input {
-  width: 40px;
-  height: 30px;
-  font-size: 1.3em;
-  margin: 3px;
-}
-
-.input__wrapper {
-  display: flex;
-  flex-direction: row;
-}
-
 .lotto {
   display: flex;
   flex-direction: column;
